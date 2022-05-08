@@ -11,6 +11,8 @@ from users.views import SmsCodeView
 from users.views import LoginView
 # 导入退出登录页面路由
 from users.views import LogoutView
+# 导入忘记密码页面路由
+from users.views import ForgetPasswordView
 
 
 urlpatterns = [
@@ -29,5 +31,8 @@ urlpatterns = [
 
     # 退出登录
     path('logout/', LogoutView.as_view(), name='logout'),
+
+    # 忘记密码路由引导
+    path('forgetpassword/',ForgetPasswordView.as_view(),name='forgetpassword'),
 
 ]
