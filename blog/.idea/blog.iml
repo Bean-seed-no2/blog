@@ -8,7 +8,6 @@
         <option name="manageScript" value="$MODULE_DIR$/manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
         <option name="doNotUseTestRunner" value="false" />
-        <option name="trackFilePattern" value="migrations" />
       </configuration>
     </facet>
   </component>
@@ -19,10 +18,5 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/static/static/ckeditor/ckeditor/plugins/templates" />
-      </list>
-    </option>
   </component>
 </module>
